@@ -1,0 +1,34 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec electron --inspect=8080 .",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "queuecat",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.0",
+    "electron-builder": "^22.10.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-gyp": "^7.1.2",
+    "node-key-sender": "^1.0.11",
+    "prebuild-install": "^6.0.1"
+  },
+  "build": {
+    "electronDownload": {
+      "mirror": "https://npm.taobao.org/mirrors/electron/"
+    },
+    "asar": false,
+    "copyright": "Copyright © 2021 QueueCat",
+    "appId": "com.electron.SelectedTranslations",
+    "productName": "翻译",
+    "win": {}
+  }
+}

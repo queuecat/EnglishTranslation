@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>翻译结果</title>
+    <style>
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+        
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        
+        svg {
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .sound {
+            /* background: url(./sound.gif) no-repeat; */
+            background: url(https://fanyi-cdn.cdn.bcebos.com/static/translation/img/translate/output/sound2x_d6f553d.gif) no-repeat;
+            /* background-image: url(https://fanyi-cdn.cdn.bcebos.com/static/translation/img/translate/output/sound1x_a31f763.gif) \9; */
+            background-size: 15px 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <audio>
+    </audio>
+    <div>
+        译文：
+        <a id="pronunciation" href="javascript:;" title="点击发音">
+            <svg id="pronunciationSvg" t="1614784503922" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2174" width="200" height="200"><path d="M855.194 512.34A263.12 263.12 0 0 0 663.28 259.39a33.907 33.907 0 0 0-42.045 33.908 33.907 33.907 0 0 0 24.074 33.907 194.628 194.628 0 0 1 0 374.676 33.907 33.907 0 0 0-24.074 33.907 33.907 33.907 0 0 0 42.045 33.907A263.12 263.12 0 0 0 855.194 512.34zM529.006 0a46.114 46.114 0 0 0-27.804 12.546l-10.85 9.494-109.86 89.515L224.18 240.064H83.465a67.815 67.815 0 0 0-67.815 67.814v400.784a67.815 67.815 0 0 0 67.815 67.815h131.899l160.381 131.9 111.216 91.21 14.58 11.867A46.114 46.114 0 0 0 529.345 1024c11.868 0 20.006-8.816 23.057-24.413a65.78 65.78 0 0 0 0-12.546V37.298a67.815 67.815 0 0 0 0-14.92C548.672 7.799 540.196 0 529.006 0z m-208.19 775.12l-81.039-67.814H83.465V307.878h164.789l78.665-64.424 158.686-130.543V910.75z" p-id="2175"></path><path d="M733.806 71.544a33.907 33.907 0 0 0-48.826 30.178 33.907 33.907 0 0 0 19.327 30.516 421.128 421.128 0 0 1 0 756.133 33.907 33.907 0 0 0-19.327 30.516 33.907 33.907 0 0 0 48.826 30.856 488.943 488.943 0 0 0 0-878.538z" p-id="2176"></path></svg>
+        </a>
+        <a id="copy" href="javascript:;" title="复制结果">
+            <svg t="1614784740911" class="icon" viewBox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4091" width="200" height="200"><path d="M89.087 992c-31.478 0-57.087-25.591-57.087-57.062l0-725.015c0-31.478 25.612-57.09 57.087-57.09l330.922 0 239.715 239.713 0 542.364c0 31.476-25.614 57.09-57.09 57.09l-513.546-0.001zM85.744 938.292l520.233 0 0-490.04-241.673 0 0-241.672-278.559 0 0 731.711zM418.019 394.508l167.658 0-167.658-167.655 0 167.655zM726.82 871.191l0-53.742 211.466 0 0-490.03-241.676 0 0-241.672-332.208 0c1.734-29.932 26.62-53.747 56.962-53.747l330.917 0 239.747 239.715 0 542.395c0 31.48-25.61 57.081-57.09 57.081l-208.118 0zM750.328 273.674l167.62 0-167.62-167.664 0 167.664z" p-id="4092"></path></svg>
+        </a>
+    </div>
+    <hr>
+    <p id="en"></p>
+</body>
+
+</html>
